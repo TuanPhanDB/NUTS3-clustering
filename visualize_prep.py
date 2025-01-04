@@ -22,11 +22,11 @@ import tempfile
 #--------------------------------------Connect to database-------------------------------------------------------------#
 #----------------------------------------------------------------------------------------------------------------------#
 #Parameters for database connection
-user="postgres"
-password="thitcho512"
-host = "localhost"
-database="test_docker"
-port=5432
+user=""
+password=""
+host = ""
+database=""
+port=
 
 # Create connection string
 connection_string = f"postgresql://{user}:{password}@{host}:{port}/{database}"
